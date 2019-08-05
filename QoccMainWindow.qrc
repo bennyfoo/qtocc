@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/QoccMainWindow">
+        <file>Resources/actions/22x22/arrow.png</file>
+        <file>Resources/actions/22x22/viewmagall.png</file>
+        <file>Resources/icons/circlecentre.png</file>
+        <file>Resources/icons/point.png</file>
+        <file>Resources/style/qoccsplash.png</file>
+    </qresource>
+</RCC>

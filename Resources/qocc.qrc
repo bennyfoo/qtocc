@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/icons" >
+        <file>actions/22x22/arrow.png</file>
+        <file>actions/22x22/axoview.png</file>
+        <file>actions/22x22/fileclose.png</file>
+        <file>actions/22x22/filenew.png</file>
+        <file>actions/22x22/fileopen.png</file>
+        <file>actions/22x22/frontview.png</file>
+        <file>actions/22x22/topfrontview.png</file>
+        <file>actions/22x22/leftview.png</file>
+        <file>actions/22x22/modulegeom.png</file>
+        <file>actions/22x22/modulemesh.png</file>
+        <file>actions/22x22/object.png</file>
+        <file>actions/22x22/planview.png</file>
+        <file>actions/22x22/redo.png</file>
+        <file>actions/22x22/run.png</file>
+        <file>actions/22x22/solidbox.png</file>
+        <file>actions/22x22/undo.png</file>
+        <file>actions/22x22/viewmag.png</file>
+        <file>actions/22x22/viewmagall.png</file>
+        <file>actions/22x22/viewmagfit.png</file>
+        <file>icons/circlecentre.png</file>
+        <file>icons/point.png</file>
+    </qresource>
+    <qresource prefix="/images" >
+        <file>style/navbar_hover.png</file>
+        <file>style/navbar_normal.png</file>
+        <file>style/navbar_selected.png</file>
+        <file>style/navbar_selecthover.png</file>
+        <file>style/qoccsplash.png</file>
+    </qresource>
+    <qresource prefix="/licenses" >
+        <file>licenses/license.gpl</file>
+    </qresource>
+</RCC>
