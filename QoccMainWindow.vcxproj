@@ -119,7 +119,6 @@
     <ClCompile Include="src\qoccapplication.cpp" />
     <ClCompile Include="src\qocccommand.cpp" />
     <ClCompile Include="src\qocccommandcircle.cpp" />
-    <ClCompile Include="src\qoccdocument.cpp" />
     <ClCompile Include="src\qoccinputoutput.cpp" />
     <ClCompile Include="src\qoccinternal.h.cpp" />
     <ClCompile Include="src\qoccmakebottle.cpp" />
@@ -182,10 +181,6 @@
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtXml</IncludePath>
     </QtMoc>
     <QtMoc Include="inc\qoccinputoutput.h">
-      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\OpenSource\QtOCC\QtOCC\occ-7.3.0\include;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtXml</IncludePath>
-      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtXml</IncludePath>
-    </QtMoc>
-    <QtMoc Include="inc\qoccdocument.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\OpenSource\QtOCC\QtOCC\occ-7.3.0\include;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtXml</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtOpenGL;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtXml</IncludePath>
     </QtMoc>

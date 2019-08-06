@@ -61,8 +61,10 @@ QoccMainWindow::QoccMainWindow()
     //viewer->Init();
     //viewer->SetZBufferManagment( Standard_False );
     viewer->SetDefaultViewProj( V3d_Zpos );	// Top view
+    viewer->SetDefaultLights();
+    viewer->SetLightOn();
+
     TPrsStd_AISViewer::New( m_ocafDoc->Main(),viewer );
- 
     Handle_AIS_InteractiveContext context;
     TPrsStd_AISViewer::Find(m_ocafDoc->Main(), context);
     context->SetDisplayMode(AIS_Shaded,Standard_True);

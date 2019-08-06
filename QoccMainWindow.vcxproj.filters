@@ -48,9 +48,6 @@
     <ClCompile Include="src\qocccommandcircle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\qoccdocument.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\qoccinputoutput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -105,9 +102,6 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="inc\qocccommandcircle.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="inc\qoccdocument.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="inc\qoccinputoutput.h">
