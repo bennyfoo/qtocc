@@ -17,14 +17,6 @@
 ****************************************************************************/
 
 //#include <Windows.h>
-#include <QtGui/QtGui>
-#include <QFileDialog>
-#include <QtCore/QTextStream>
-#include <QtCore/QFileInfo>
-#include <QtCore/QString>
-#include <QMessageBox>
-#include <QLineEdit>
-
 #include <Aspect_RectangularGrid.hxx>
 #include <V3d_View.hxx>
 
@@ -44,6 +36,15 @@
 #include "AIS_ListOfInteractive.hxx"
 #include "AIS_ListIteratorOfListOfInteractive.hxx"
 #include "TDF_ChildIterator.hxx"
+
+#include <QtGui/QtGui>
+#include <QFileDialog>
+#include <QtCore/QTextStream>
+#include <QtCore/QFileInfo>
+#include <QtCore/QString>
+#include <QMessageBox>
+#include <QLineEdit>
+
 
 void LoadBottle ( Handle_AIS_InteractiveContext theContext );
 void ShowOrigin ( Handle_AIS_InteractiveContext theContext );

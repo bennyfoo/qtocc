@@ -19,6 +19,12 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "qoccviewercontext.h"
+#include "qoccviewframe.h"
+#include "qoccviewwidget.h"
+#include "qoccinputoutput.h"
+#include "TOcaf_Application.hxx"
+
 #include <QtCore/QVariant>
 #include <QAction>
 #include <QApplication>
@@ -33,12 +39,6 @@
 #include <QToolBar>
 #include <QTreeWidget>
 #include <QWidget>
-
-#include "qoccviewercontext.h"
-#include "qoccviewframe.h"
-#include "qoccviewwidget.h"
-#include "qoccinputoutput.h"
-#include "TOcaf_Application.hxx"
 
 class QAction;
 class QLabel;

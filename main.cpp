@@ -25,13 +25,12 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-#include <QtGui>
-//#include <QPlastiqueStyle>
-
 #include "qoccapplication.h"
 #include "qoccmainwindow.h"
-
 #include "qtdotnetstyle.h"
+
+#include <QtGui>
+//#include <QPlastiqueStyle>
 
 int main(int argc, char *argv[])
 {
